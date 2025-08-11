@@ -63,6 +63,10 @@ sudo ufw reload
 ```
 
 ### Build Process
+Optional commands:
+
+rustup component add rustfmt
+
 1. Clone the repository
 2. git clone https://github.com/dheijl/swyh-rs
    
