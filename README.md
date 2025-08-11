@@ -64,11 +64,16 @@ sudo ufw reload
 
 ### Build Process
 1. Clone the repository
-2. Run the build script:
+2. git clone https://github.com/dheijl/swyh-rs
+   
+3. Run the build script:
    ```bash
+
+   rustup component add rustfmt
+
    ./buildall
    ```
-3. Find the compiled binary in:
+4. Find the compiled binary in:
    ```
    swyh-rs-1.12.0/target/release/
    ```
