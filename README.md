@@ -42,6 +42,8 @@ RUSTUP_INIT_SKIP_PATH_CHECK=yes curl --proto '=https' --tlsv1.2 -sSf https://sh.
 ```
 > 📝 **Note**: Remember to restart your terminal after installing Rust
 
+sudo apt -y install pulseaudio pavucontrol
+
 ### Firewall Configuration
 
 Configure UFW rules for DLNA/UPNP and streaming:
